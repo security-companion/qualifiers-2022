@@ -26,10 +26,10 @@ Durch Prüfung der Commits `7246d76` lässt sich die Datei `pastebin.json` finde
     "content": "einmal den schluessel zum mitnehmen bitte. nicht im menu" 
 }
 ```
-Anschließend muss eine E-Mail, wie im Json beschreiben an die E-Mail-Adresse `xaenomorph63@gmail.com` abgesendet werden.
+Anschließend muss eine E-Mail, wie im Json beschrieben an die E-Mail-Adresse `xaenomorph63@gmail.com` abgesendet werden.
 Die Antwort auf die E-Mail ist ein Base64 kodierter Schlüssel, welcher die finale Flag beinhaltet.
 
-**Hinwei:** Das Senden der E-Mail und der Erhalt der Flag sind nicht mehr möglich.
+**Hinweis:** Das Senden der E-Mail und der Erhalt der Flag sind nicht mehr möglich.
 
 Alternativ kann die benötigte `pastebin.json` auch auf [Pastebin](https://pastebin.com/raw/mPRBdiTA) direkt gefunden werden:
 
