@@ -18,11 +18,11 @@ Die Kommunikation der Endpunkte erfolgt über den Port 53.
 
 ![Wireshark Statistics](./statistics_pcap.png)
 
-Bei Anwendung des Wireshark-Filters `dns` fallen AAA-Records mit dem DNS-Namen `c2.malwreprvt.de` auf.
+Bei Anwendung des Wireshark-Filters `dns` fallen AAA-Records mit dem DNS-Namen `c2.mlwreprvt.de` auf.
 
 ![Wireshark DNS Filter](./dns_filter.png)
 
-Werden die UDP-Pakete der Ströme inspiziert, fällt auf, dass die Antworten zu Anfragen auf `c2.malwreprvt.de` unterschiedlich ausfallen. Hier wurde DNS als `covert channel` verwendet, um die Flag zu übertragen.
+Werden die UDP-Pakete der Ströme inspiziert, fällt auf, dass die Antworten zu Anfragen auf `c2.mlwreprvt.de` unterschiedlich ausfallen. Hier wurde DNS als `covert channel` verwendet, um die Flag zu übertragen.
 
 ![Wireshark UDP Flow](./udp_flow.png)
 
