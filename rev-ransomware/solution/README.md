@@ -10,7 +10,7 @@ Die Anwendung `dbh_ransomware.exe` und die Datei `flag.txt.dbh` sind bei dieser 
 
 ### Lösungsvorschlag
 
-Zur Analyse des Programms kann zum Beispiel die Disassembler [IDA](https://hex-rays.com/) und [Ghidra](https://ghidra-sre.org/) und der Debugger [x86dbg](https://github.com/x64dbg/x64dbg) verwendet. 
+Zur Analyse des Programms können zum Beispiel die Disassembler [IDA](https://hex-rays.com/) und [Ghidra](https://ghidra-sre.org/) und der Debugger [x86dbg](https://github.com/x64dbg/x64dbg) verwendet werden.
 Die Main-Funktion wird von IDA automatisch erkannt und startet bei 
 `0x0000000140003600`.
 
